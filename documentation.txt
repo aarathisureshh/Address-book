@@ -1,5 +1,6 @@
-
 TITLE: Address Book Management System
+NAME: ARATHI V
+DATE: 05/03/2026
 
 DESCRIPTION
 A console-based C application for managing contact details. It supports adding, viewing, searching, editing, deleting, sorting, and saving contacts. The project demonstrates structured programming, input validation, and file handling.
