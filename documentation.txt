@@ -1,34 +1,17 @@
-TITLE        :Address Book Management System
-NAME         :ARATHI V
-Date.        :05/03/2026
-ROLL NUMBER  :25031_048
-DESCRIPTION  :The Address Book Management System is a consolebased 
-application developed using theC programming language. The system is 
-designed to store and manage contact details efficiently.
 
-This application allows users to:
+TITLE: Address Book Management System
 
-Add new contacts
-View existing contacts
-Search for specific contacts
-Edit contact information
-Delete contacts
-Save contact details permanently using file storage
+DESCRIPTION
+A console-based C application for managing contact details. It supports adding, viewing, searching, editing, deleting, sorting, and saving contacts. The project demonstrates structured programming, input validation, and file handling.
 
-The system is menu-driven and provides a simple and user-friendly 
-interface for managing contact records. The project demonstrates 
-practical implementation of structured programming, file handling,
-and data management concepts.
+FEATURES
+- Add and view contacts
+- Search contacts by name, phone number, or email
+- Edit and delete contacts
+- Sort contacts by name, phone number, or email
+- Save contact data to a file
 
-The system also includes input validation to ensure proper data entry 
- and prevent invalid records.
-
-
-
-
-Sample input 1:
-_______________________
-
+SAMPLE INPUT
 Address Book Menu:
 1. Create contact
 2. Search contact
@@ -37,117 +20,11 @@ Address Book Menu:
 5. List all contacts
 6. Save contacts
 7. Exit
-_______________________
+
 Enter your choice: 1
-Enter the name: SONA
-Enter the number: 8976547865
-Enter the E-mail: sonamaria@gmail.com
-Contact is saved successfully..
-_______________________
+Enter the name: Sample Contact
+Enter the number: 0000000000
+Enter the E-mail: sample@example.com
+Contact is saved successfully.
 
-Address Book Menu:
-1. Create contact
-2. Search contact
-3. Edit contact
-4. Delete contact
-5. List all contacts
-6. Save contacts
-7. Exit
-_______________________
-Enter your choice: 6
-Saving and Exiting...
-
-sample input 2:
-_______________________
-
-Address Book Menu:
-1. Create contact
-2. Search contact
-3. Edit contact
-4. Delete contact
-5. List all contacts
-6. Save contacts
-7. Exit
-_______________________
-Enter your choice: 2
-1.Name
-2.Phone NUmber
-3.E-mail
-4.Exit
-Enter the choice: 1
-Enter the name: SO
-| No.| Name     | Phone number  |       E-mail          |
-| 1  | SONA     | 8976547865    | sonamaria@gmail.com   |
-
-_______________________
-
-Address Book Menu:
-1. Create contact
-2. Search contact
-3. Edit contact
-4. Delete contact
-5. List all contacts
-6. Save contacts
-7. Exit
-_______________________
-Enter your choice: 3
-1.Name
-2.Phone NUmber
-3.E-mail
-4.Exit
-Enter the choice: 1
-Enter the name: SO
-| No.| Name             | Phone number  |       E-mail          |
-| 1  | SONA             | 8976547865    | sonamaria@gmail.com   |
-Enter the contact to edit: 1
-1.Name
-2.Number
-3.E-mail
-Enter the choice: 1
-Enter the new name: Sona
-Contact is edited.
-_______________________
-
-Address Book Menu:
-1. Create contact
-2. Search contact
-3. Edit contact
-4. Delete contact
-5. List all contacts
-6. Save contacts
-7. Exit
-_______________________
-Enter your choice: 6
-Saving and Exiting...
-
-sample input 3:
-
-_______________________
-
-Address Book Menu:
-1. Create contact
-2. Search contact
-3. Edit contact
-4. Delete contact
-5. List all contacts
-6. Save contacts
-7. Exit
-_______________________
-Enter your choice: 5
-1.list by name:
-2.list by phone:
-3.list by email:
-Enter the sortChoic:1
-| 1  | Alice Smith      | 0987654321    | alice@example.com     |
-| 2  | Bob Johnson      | 1112223333    | bob@company.com       |
-| 3  | Carol White      | 4445556666    | carol@company.com     |
-| 4  | David Brown      | 7778889999    | david@example.com     |
-| 5  | Eve Davis        | 6665554444    | eve@example.com       |
-| 6  | Frank Miller     | 3334445555    | frank@example.com     |
-| 7  | Grace Wilson     | 2223334444    | grace@example.com     |
-| 8  | Hannah Clark     | 5556667777    | hannah@example.com    |
-| 9  | Ian Lewis        | 8889990000    | ian@example.com       |
-| 10  | John Doe        | 1234567890    | john@example.com      |
-| 11  | Sona            | 8976547865    | sonamaria@gmail.com   |
-
-
+The contact details above are fictional examples for demonstration.
